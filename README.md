@@ -47,8 +47,8 @@ The pipeline steps are:
 
 **Step 1:** Clone this repository  
 ```bash
-git clone https://github.com/your-username/nasdaq-stock-prediction-pipeline.git
-cd nasdaq-stock-prediction-pipeline
+git clone https://github.com/your-username/stock-prediction-pipeline.git
+cd stock-prediction-pipeline
 ```
 ### Step 2: Create and activate a virtual environment (optional but recommended)
 
@@ -66,12 +66,12 @@ source venv/bin/activate
 
 ### Step 3: Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ### Step 4: Run the app
 ```bash
-streamlit run dashboard.py
+streamlit run Dashboard.py
 ```
 
 Your browser will open a local server showing a dynamic price forecast for the selected stock.
@@ -92,10 +92,10 @@ This pipeline can be adapted to different stocks, intervals, or models with mini
 
 ## 📁 Files in this project
 
-- `dashboard.py`: Main Streamlit application.
+- `Dashboard.py`: Main Streamlit application.
 - `predictions.pkl`: Trained ensemble model.
-- `loan_predictor.ipynb`: Jupyter notebook used for data exploration, model training and evaluation.
-- `requirements.txt`: List of dependencies.
+- `stock-prediction-pipeline.ipynb`: Jupyter notebook used for data exploration, model training and evaluation.
+- `Requirements.txt`: List of dependencies.
 - `README.md`: You’re reading it!
 
 ---
