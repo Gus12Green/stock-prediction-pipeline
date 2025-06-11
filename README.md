@@ -121,5 +121,4 @@ Feel free to connect or reach out via:
 - This app is **not for commercial use** and is purely educational and demonstrative.  
   I do **not profit** in any way from its use or from the underlying dataset.
 
-- This app runs **entirely on your local machine**. No data entered into the calculator is collected, transmitted or stored anywhere.  
-  **You retain complete privacy over any information entered in the form.**
+- This app runs **entirely on your local machine**. No data is collected, transmitted or stored anywhere.  
