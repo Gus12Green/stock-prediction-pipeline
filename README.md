@@ -1,15 +1,15 @@
 📈 Stock Price Forecasting Pipeline  
 
-This project implements a fully automated data pipeline that retrieves real-time market data for any NASDAQ-listed stock, processes it, and generates short-term price predictions using a regression model.  
+This project implements a fully automated data pipeline that retrieves real-time market data for any NASDAQ listed stock, processes it, and generates short-term price predictions using a regression model.  
 
-The main objective is to demonstrate how to build a complete, production-ready pipeline that integrates live API data, preprocessing, modeling, and visualization in a seamless flow—suitable for professional data science environments.
+The main objective is to demonstrate how to build a complete, production ready pipeline that integrates live API data, preprocessing, modeling, and visualization in a seamless flow suitable for professional data science environments.
 
 ---
 
 📌 What does this app do?  
 This project retrieves financial data from the **Alpha Vantage API**, processes and transforms the latest stock information, feeds it into a machine learning model, and returns price predictions for upcoming time intervals.  
 
-Although the included setup predicts the next 60 minutes in 5-minute intervals, the pipeline is fully adaptable to other intervals and time frames supported by the API.
+Although the included setup predicts the next 60 minutes in 5 minute intervals, the pipeline is fully adaptable to other intervals and time frames supported by the API.
 
 The results are displayed using a clean and interactive Streamlit dashboard.
 
